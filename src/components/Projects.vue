@@ -45,7 +45,7 @@
 const projects = [
   {
     title: 'Security Strike Sentinel',
-    image: '/public/sss.jpg',
+    image: '/public/securitystrikesentinel.PNG',
     description: 'Security Strike Sentinel is an advanced, open-source security testing automation toolkit designed to streamline the detection of vulnerabilities in modern web applications. It integrates OWASP ZAP and Dependency-Check into a unified CLI-based workflow, complete with rich HTML and JSON reports, CI/CD integration, and context-based authenticated scanning.',
     tools: ['Java', 'OWASP ZAP API', 'JCommander', 'Jackson (API) ', 'JUnit5', 'Chart.js', 'HTML/CSS', 'GitHub Actions']
   }
