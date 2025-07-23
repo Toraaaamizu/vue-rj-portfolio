@@ -42,27 +42,16 @@
 </template>
 
 <script setup>
+import sentinelImg from '@/assets/projects/securitystrikesentinel.PNG'
+
 const projects = [
   {
     title: 'Security Strike Sentinel',
-    image: '/public/securitystrikesentinel.PNG',
-    description: 'Security Strike Sentinel is an advanced, open-source security testing automation toolkit designed to streamline the detection of vulnerabilities in modern web applications. It integrates OWASP ZAP and Dependency-Check into a unified CLI-based workflow, complete with rich HTML and JSON reports, CI/CD integration, and context-based authenticated scanning.',
-    tools: ['Java', 'OWASP ZAP API', 'JCommander', 'Jackson (API) ', 'JUnit5', 'Chart.js', 'HTML/CSS', 'GitHub Actions']
+    image: sentinelImg,
+    description:
+      'Security Strike Sentinel is an advanced, open-source security testing automation toolkit designed to streamline the detection of vulnerabilities in modern web applications. It integrates OWASP ZAP and Dependency-Check into a unified CLI-based workflow, complete with rich HTML and JSON reports, CI/CD integration, and context-based authenticated scanning.',
+    tools: ['Java', 'OWASP ZAP API', 'JCommander', 'Jackson (API)', 'JUnit5', 'Chart.js', 'HTML/CSS', 'GitHub Actions']
   }
-
-  // Uncomment or add more projects to see layout adjust
-  // ,
-  // {
-  //   title: 'Task Tracker App',
-  //   image: '/images/project2.jpg',
-  //   description: 'A productivity tool to manage and prioritize daily tasks.',
-  //   tools: ['Vue 3', 'Pinia', 'Firebase']
-  // },
-  // {
-  //   title: 'E-commerce Dashboard',
-  //   image: '/images/project3.jpg',
-  //   description: 'Admin dashboard for tracking sales, inventory, and orders.',
-  //   tools: ['Chart.js', 'Tailwind', 'Vue Router']
-  // }
 ]
 </script>
+
