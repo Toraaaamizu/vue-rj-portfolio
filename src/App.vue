@@ -29,6 +29,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <div class="bg-neutral-light dark:bg-gray-900 text-text-light dark:text-white">
   <Navbar />
   <HeroSection />
   <About />
@@ -38,4 +39,5 @@ onMounted(() => {
   <Contacts />
   <BackToTop />
   <Footer />
+  </div>
 </template>

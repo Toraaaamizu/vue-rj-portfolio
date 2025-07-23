@@ -195,22 +195,32 @@ const handleSubmit = async () => {
   loading.value = true
 
   try {
+    const formData = new FormData()
+    formData.append('name', form.value.name)
+    formData.append('email', form.value.email)
+    formData.append('subject', form.value.subject)
+    formData.append('message', form.value.message)
+
     const res = await fetch('https://formspree.io/f/manbeqgj', {
       method: 'POST',
       headers: { Accept: 'application/json' },
-      body: new FormData(Object.assign(document.createElement('form'), form.value))
+      body: formData
     })
 
+    const data = await res.json()
+
     if (res.ok) {
-      toast.success('Message sent successfully!')
+      toast.success('✅ Message sent successfully!')
       form.value = { name: '', email: '', subject: '', message: '' }
     } else {
-      toast.error('Failed to send message. Try again.')
+      const error = data.errors?.[0]?.message || 'Failed to send message. Try again.'
+      toast.error(`❌ ${error}`)
     }
   } catch (e) {
-    toast.error('Something went wrong. Please try later.')
+    toast.error('❌ Something went wrong. Please try again later.')
   } finally {
     loading.value = false
   }
 }
+
 </script>

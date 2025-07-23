@@ -15,7 +15,12 @@ export default {
         secondary: {
           light: '#886ab2',
           dark: '#886ab2'
-        }
+        },
+        // ✅ Add this for a softer light background
+        'neutral-light': '#f7f9fc',       // soft background
+        'primary-light': '#3b82f6',       // soft blue
+        'secondary-light': '#9333ea',     // gentle purple
+        'text-light': '#1f2937',          // softer black
       },
       animation: {
         float: 'float 3s ease-in-out infinite',
