@@ -1,0 +1,98 @@
+/* custom.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* === Glass Effect Card === */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.dark .glass-card {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* === Skill Bars === */
+.skill-bar {
+  height: 8px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.skill-progress {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 1.5s ease;
+}
+
+/* === Project Card Hover === */
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+              0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* === Testimonial Flip Card === */
+.testimonial-card {
+  perspective: 1000px;
+}
+.testimonial-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.testimonial-card:hover .testimonial-inner {
+  transform: rotateY(180deg);
+}
+.testimonial-front,
+.testimonial-back {
+  backface-visibility: hidden;
+}
+.testimonial-back {
+  transform: rotateY(180deg);
+}
+
+/* === Navigation Underline Animation === */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* === Device Toggle Button === */
+.device-toggle {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  z-index: 50;
+}
+#app {
+  width: 100%;
+  max-width: 1440px; /* great for large displays */
+  margin: 0 auto;
+  padding: 2rem 1rem; /* top-bottom: 2rem, left-right: 1rem */
+  text-align: center;
+}
+.fixed {
+    position: fixed;
+}
+html {
+  scroll-behavior: smooth;
+}
+.max-w-7xl {
+    max-width: 100rem;
+    text-align: -webkit-auto;
+}
