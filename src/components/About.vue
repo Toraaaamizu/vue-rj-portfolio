@@ -5,7 +5,7 @@
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">About <span class="text-primary-light dark:text-primary-dark">Me</span></h2>
                 <div class="w-20 h-1 bg-secondary-light dark:bg-secondary-dark mx-auto mb-6"></div>
                 <p class="text-lg text-black dark:text-gray-300 max-w-3xl mx-auto">
-                    I'm a Software QA Specialist with 4 years of hands-on experience making software more reliable and user-friendly. I’ve tackled both manual and automated testing, built test plans from scratch, and helped catch bugs before they reach customers. I enjoy making testing processes smoother, working closely with teammates, and jumping in to help customers when needed. Always eager to learn new things when it comes to new technology that will make our process more efficient.
+                    I’m a Software QA Engineer with 4 years of hands-on experience in manual and automated testing, focused on improving software quality, reliability, and user experience. I enjoy finding bugs before they reach customers, streamlining testing processes, and using automation and AI-powered tools to make testing faster and more efficient. I work closely with development and product teams to solve problems, improve workflows, and deliver reliable software, while continuously learning and exploring new technologies that can make QA smarter and more effective.
                 </p>
             </div>
             
