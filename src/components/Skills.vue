@@ -167,7 +167,7 @@
                     </div>  
                     <div class="flex items-center px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full">
                         <i class="fas fa-chart-pie text-purple-500 mr-2"></i>
-                        <span>Test Metrics</span>
+                        <span>Test Rail</span>
                     </div>
                     <div class="flex items-center px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full">
                         <i class="fab fa-docker text-blue-500 mr-2"></i>
