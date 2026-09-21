@@ -87,7 +87,7 @@
                         </div>
                         <div>
                             <div class="flex justify-between mb-2">
-                                <span class="font-medium">Playwright</span>
+                                <span class="font-medium">Python</span>
                                 <span class="font-medium">80%</span>
                             </div>
                             <div class="skill-bar">
@@ -114,7 +114,7 @@
                         </div>
                         <div>
                             <div class="flex justify-between mb-2">
-                                <span class="font-medium">JUnit/TestNG (with Java)</span>
+                                <span class="font-medium">Apache JMeter</span>
                                 <span class="font-medium">80%</span>
                             </div>
                             <div class="skill-bar">
