@@ -26,16 +26,17 @@ const scrollPercent = ref(0)
 const handleScroll = () => {
   const scrollTop = window.scrollY
   const docHeight = document.documentElement.scrollHeight - window.innerHeight
-  scrollPercent.value = Math.round((scrollTop / docHeight) * 100)
+  scrollPercent.value = docHeight > 0 ? Math.min(100, Math.max(0, Math.round((scrollTop / docHeight) * 100))) : 0
   visible.value = scrollTop > 300
 }
 
 const scrollToTop = () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' })
+  window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' })
 }
 
 onMounted(() => {
-  window.addEventListener('scroll', handleScroll)
+  handleScroll()
+  window.addEventListener('scroll', handleScroll, { passive: true })
 })
 
 onBeforeUnmount(() => {
