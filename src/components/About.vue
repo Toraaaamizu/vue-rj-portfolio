@@ -37,7 +37,7 @@
         <!-- QA -->
         <div class="glass-card expertise-card p-8 rounded-3xl">
           <div class="icon-wrapper mb-6">
-            <i class="fas fa-shield-check"></i>
+            <i class="fas fa-shield"></i>
           </div>
 
           <h3 class="text-xl font-bold mb-3">
