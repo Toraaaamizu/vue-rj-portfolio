@@ -5,7 +5,7 @@
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">About <span class="text-primary-light dark:text-primary-dark">Me</span></h2>
                 <div class="w-20 h-1 bg-secondary-light dark:bg-secondary-dark mx-auto mb-6"></div>
                 <p class="text-lg text-black dark:text-gray-300 max-w-3xl mx-auto">
-                    I’m a Software QA Engineer with 5 years of hands-on experience in manual and automated testing, focused on improving software quality, reliability, and user experience. I enjoy finding bugs before they reach customers, streamlining testing processes, and using automation and AI-powered tools to make testing faster and more efficient. I work closely with development and product teams to solve problems, improve workflows, and deliver reliable software, while continuously learning and exploring new technologies that can make QA smarter and more effective.
+                    I'm a Software Quality Assurance Specialist with 5+ years of experience in test automation, API testing, performance testing, and CI/CD practices. I specialize in building scalable test solutions using Katalon Studio, Python, and modern testing tools to improve software quality and release reliability. By leveraging AI-powered tools, automation, and data-driven testing strategies, I help teams deliver high-quality software faster and more efficiently.
                 </p>
             </div>
             
@@ -14,9 +14,9 @@
                     <div class="text-primary-light dark:text-primary-dark text-4xl mb-4">
                         <i class="fas fa-search"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Manual Testing</h3>
+                    <h3 class="text-xl font-semibold mb-3">Quality Assurance</h3>
                     <p class="text-black dark:text-gray-300">
-                       I like to step into the user's shoes by clicking through every button, trying out different paths, and making sure everything works just right. Using tools like Jira to organize and track what needs testing, I help catch the little bugs before they grow into big problems.
+                        I ensure software quality through functional, regression, API, and end-to-end testing. By combining exploratory testing with structured test strategies, I help identify risks early and prevent issues from reaching production.
                     </p>
                 </div>
                 
@@ -24,9 +24,9 @@
                     <div class="text-primary-light dark:text-primary-dark text-4xl mb-4">
                         <i class="fas fa-robot"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Test Automation</h3>
+                    <h3 class="text-xl font-semibold mb-3">Automation & CI/CD</h3>
                     <p class="text-black dark:text-gray-300">
-                        I build test scripts that do the heavy lifting for repetitive tasks, using tools like Katalon Studio, Playwright, and Selenium. Whether I’m writing in Java, JavaScript, or TypeScript, I make sure the tests are reliable and help the team move faster without missing a beat.
+                       I build and maintain automated test frameworks using Katalon Studio and Python, integrating them into CI/CD pipelines to provide fast feedback, improve test coverage, and support reliable software releases.
                     </p>
                 </div>
                 
@@ -34,9 +34,9 @@
                     <div class="text-primary-light dark:text-primary-dark text-4xl mb-4">
                         <i class="fas fa-chart-line"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Quality Metrics</h3>
+                    <h3 class="text-xl font-semibold mb-3">Performance Testing</h3>
                     <p class="text-black dark:text-gray-300">
-                        I pay close attention to things like how often bugs show up, how much of the app is covered by tests, and how quickly issues get fixed. These numbers help us see where we’re doing well and where we can do better so that we can keep improving with every release.
+                        I perform load and performance testing using k6, analyzing system metrics to identify bottlenecks and optimize application performance. I also utilize AI-powered tools to accelerate test design, troubleshooting, and quality assurance workflows.
                     </p>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                 <div class="order-2 lg:order-1">
                     <h3 class="text-2xl font-bold mb-6">My <span class="text-primary-light dark:text-primary-dark">Approach</span> to Quality Assurance</h3>
                     <p class="text-black dark:text-gray-300 mb-6">
-                        For me, QA is more than just finding bugs it's about making sure the product feels right for consumers. I believe good testing means thinking ahead, asking “what if?”, and working closely with the team to catch issues early. Whether I’m writing test cases, automating repetitive checks, or digging into logs to troubleshoot, I’m always focused on helping the team deliver something solid, smooth, and user-friendly.
+                        Quality is more than finding bugs. It's about building confidence in every release. I combine automation, performance testing, API validation, and collaborative problem-solving to identify risks early and ensure applications remain reliable, scalable, and user-focused throughout the development lifecycle.
                     </p>
                     <div class="space-y-4">
                         <div class="flex items-start">
@@ -56,7 +56,7 @@
                             </div>
                             <div class="ml-3">
                                 <p class="text-black dark:text-gray-300">
-                                    <span class="font-medium">Critical Thinking: </span> I ask the right questions, explore edge cases, and always try to see the product from the user's perspective.
+                                    <span class="font-medium">Automation First: </span> I leverage automation, CI/CD, and AI-assisted tools to improve testing efficiency and accelerate delivery.
                                 </p>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                             </div>
                             <div class="ml-3">
                                 <p class="text-black dark:text-gray-300">
-                                    <span class="font-medium">The Right Tools: </span>From Katalon Studio, Playwright, and Selenium to Jira, Git, and SQL. I'm hands-on with tools that help testing move faster and smarter.
+                                    <span class="font-medium">Performance Driven: </span> I use k6 and performance metrics to identify bottlenecks, validate scalability, and improve application reliability.
                                 </p>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                             </div>
                             <div class="ml-3">
                                 <p class="text-black dark:text-gray-300">
-                                    <span class="font-medium">Team Collaboration: </span> I believe quality is a team effort. I work closely with developers, designers, and project managers to make sure we're building the best version of the product together.
+                                    <span class="font-medium">Collaborative Quality: </span> I work closely with developers, product owners, and stakeholders to embed quality throughout the software development lifecycle.
                                 </p>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                                         <i class="fas fa-trophy"></i>
                                     </div>
                                     <div>
-                                        <p class="font-bold">99.9%</p>
+                                        <p class="font-bold">90%</p>
                                         <p class="text-sm text-gray-500 dark:text-gray-400">Bug-Free Releases</p>
                                     </div>
                                 </div>
