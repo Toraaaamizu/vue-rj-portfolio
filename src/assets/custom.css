@@ -97,3 +97,13 @@ html {
     max-width: 100rem;
     text-align: -webkit-auto;
 }
+/* Native anchor navigation also works for menus rendered after mount. */
+section[id] {
+  scroll-margin-top: 80px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
